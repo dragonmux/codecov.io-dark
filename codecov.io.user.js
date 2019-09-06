@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         codecov.io Dark
 // @namespace    gitlab.com/DX-MON
-// @version      0.0.4
+// @version      0.0.5
 // @description  Dark theme for codecov.io extras
 // @author       Rachel Mant <dx-mon@users.sourceforge.net> (https://gitlab.com/DX-MON)
-// @homepageURL  https://gist.github.com/DX-MON/f67057db39adefd8a872a73372fd2c16
-// @updateURL    https://gist.gitlab.com/DX-MON/f67057db39adefd8a872a73372fd2c16/raw/master/codecov.io.user.js
+// @homepageURL  https://github.com/DX-MON/codecov.io-dark
+// @updateURL    https://github.com/DX-MON/codecov.io-dark/blob/master/codecov.io.user.js
 // @license      GPLv3+
 // @match        https://codecov.io/*
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
