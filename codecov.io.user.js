@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         codecov.io Dark
 // @namespace    gitlab.com/DX-MON
-// @version      0.0.5
+// @version      0.0.6
 // @description  Dark theme for codecov.io extras
 // @author       Rachel Mant <dx-mon@users.sourceforge.net> (https://gitlab.com/DX-MON)
 // @homepageURL  https://github.com/DX-MON/codecov.io-dark
@@ -99,6 +99,6 @@
 			return [c, 0, x]
 	}
 
-	jQuery('#pjax-outer').on('pjax:success', function() { delete new CoverageFixer() })
-	$(function() { delete new CoverageFixer() })
+	jQuery('#pjax-outer').on('pjax:success', function() { new CoverageFixer() })
+	$(function() { new CoverageFixer() })
 }(jQuery.noConflict(), $)
