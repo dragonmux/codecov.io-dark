@@ -368,6 +368,9 @@
   .ui.styled.accordion .title svg {
     fill: #afafaf !important;
   }
+  .ui.image.label {
+    background: #484141;
+  }
   .ui.basic.label {
     background: #fff;
     border: 1px solid rgba(34, 36, 38, 0.15);
