@@ -21,6 +21,10 @@
     background-color: #403f3f;
     color: #d0d0d0;
   }
+  code {
+    background-color: #403f3f;
+    color: #d0d0d0;
+  }
   pre.data {
     background-color: #3e3c3c;
   }
@@ -62,6 +66,11 @@
   .ui.info.message {
     color: #608dff;
   }
+  .ui.warning.message {
+    background-color: #573a08;
+    color: #fffaf3;
+    box-shadow: none !important;
+  }
   .ui.tabular.menu .item,
   .ui.menu .item,
   .ui.toggle.checkbox .box,
@@ -101,6 +110,9 @@
   .ui.piled.segments > .ui.segment > svg,
   .ui.container h1 > svg {
     fill: rgba(255, 255, 255, 0.9);
+  }
+  .ui.items > .item .meta {
+    color: rgba(255, 255, 255, 0.6);
   }
   .ui.breadcrumb .divider {
     color: rgba(255, 255, 255, 0.9);
@@ -152,19 +164,19 @@
   .src:not(.src-diff).src-p-o tr.src-cp {
     background-color: #565600;
   }
-
-  .ui.green.label,
-  .ui.green.labels .label {
-    vertical-align: bottom;
-    color: #ddd !important;
-    background-color: #00751b !important;
-    line-height: 1;
-    font-size: 0.65rem;
-    padding: 0.35rem !important;
-    width: 18px;
-    height: 18px;
+  .ui.search > .prompt {
+    background: #424242;
   }
-
+  .ui.search > .prompt:focus {
+    border-color: rgba(34, 36, 38, 0.35);
+    background: #3e3e3e;
+    color: rgb(187, 187, 187);
+  }
+  .ui.search > .results {
+    background: #6d6d6d;
+    border-color: #6d6d6d;
+    color: black;
+  }
   .ui.sortable.table thead th,
   .ui.table {
     color: rgba(255, 255, 255, 0.9);
@@ -325,6 +337,52 @@
   }
   .ui.accordion .title:not(.ui) {
     color: rgba(255, 255, 255, 0.87);
+  }
+  .ui.styled.accordion,
+  .ui.styled.accordion .accordion {
+    background: #313131;
+  }
+  .ui.styled.accordion .accordion .title,
+  .ui.styled.accordion .title {
+    color: white;
+  }
+  .ui.styled.accordion .accordion > .active.title,
+  .ui.styled.accordion .accordion > .title:hover,
+  .ui.styled.accordion .active.title,
+  .ui.styled.accordion .title:hover {
+    color: #afafaf;
+  }
+  .ui.styled.accordion .accordion .active.title,
+  .ui.styled.accordion .active.title {
+    color: #afafaf;
+  }
+  .ui.styled.accordion .accordion {
+    background: #3a3939;
+  }
+  .ui.styled.accordion .accordion .active.title,
+  .ui.styled.accordion .accordion .title:hover,
+  .ui.styled.accordion .active.title,
+  .ui.styled.accordion .title:hover {
+    color: #afafaf;
+  }
+  .ui.styled.accordion .title svg {
+    fill: #afafaf !important;
+  }
+  .ui.basic.label {
+    background: #fff;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: none;
+  }
+  .ui.basic.yellow.label {
+    background-color: #fbbd08 !important;
+    color: #000 !important;
+    border-color: #fbbd08 !important;
+  }
+  .ui.basic.green.label {
+    background-color: #21ba45 !important;
+    color: black !important;
+    border-color: #21ba45 !important;
   }
   /* Editor */
   .src .container {
