@@ -14,7 +14,7 @@
 
 @-moz-document domain("codecov.io")
 {
-body { background-color: #232020; color: #ddd; }
+body { background-color: #222; color: #ddd; }
 var { background-color: #403f3f; color: #d0d0d0; }
 code { background-color: #403f3f; color: #d0d0d0; }
 pre.data { background-color: #3e3c3c; }
@@ -24,7 +24,7 @@ pre.data { background-color: #3e3c3c; }
 .nav { background-color: #222; border-bottom: 1px solid rgba(255,255,255,.08); }
 .nav .ui.segments { border: solid rgba(255,255,255,.08); border-width: 1px 1px 0; border-radius: 0; }
 .ui.segment, .ui.menu, .ui.table { background-color: #222; }
-.nav .ui.ribbon { background-color: #211f1f; border-color: rgba(255,255,255,.08); }
+.nav .ui.ribbon { background-color: #111; border-color: rgba(255,255,255,.08); }
 .ui.segments:not(.horizontal)>.segment:first-child { border-radius: 0; }
 .nav .title { width: calc(100% - 18rem); }
 a, .ui.info.message { color: #608dff; }
@@ -128,6 +128,7 @@ a, .ui.info.message { color: #608dff; }
 .src.src-diff.src-m-o tr.src-cm>td:first-child { background-color: #5f0a0a; }
 
 /* Inputs */
+.ui.form .field>label { color: rgba(255, 255, 255, 0.87) }
 .ui.form input:not([type]), .ui.form input[type="text"], .ui.form input[type="email"],
 	.ui.form input[type="search"], .ui.form input[type="password"], .ui.form input[type="date"],
 	.ui.form input[type="datetime-local"], .ui.form input[type="tel"], .ui.form input[type="time"],
